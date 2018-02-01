@@ -5,7 +5,8 @@ The script utilizes a trie which can check for the validity of any word in the d
 
 Everything in the script could probably be a lot more efficient, but hey, it works well enough !
 
-Usage :
-    Simply run main.py with python 3 and enjoy your cheating.
+### Usage :
+Simply run main.py with python 3 and enjoy your cheating.
 
-Note : You may have to install some dependencies (pip install unidecode)
+### Note : 
+You may have to install some dependencies (pip install unidecode)
