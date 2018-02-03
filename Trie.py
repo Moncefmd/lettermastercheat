@@ -5,7 +5,7 @@ class Trie:
     def __init__(self):
         self.root = Node("*")
 
-    def esrot(self, word):
+    def add_string(self, word):
         curnode = self.root
         for letter in word:
             temp = curnode.get_child(letter)
@@ -16,7 +16,7 @@ class Trie:
                 curnode = curnode.get_child(letter)
         curnode.add_child(".")
 
-    def eskefiha(self, word):
+    def contains(self, word):
         curnode = self.root
         for letter in word:
             temp = curnode.get_child(letter)
